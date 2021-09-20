@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>250</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Help</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Logo.qrc">
+    <normaloff>:/pic/Logo.ico</normaloff>:/pic/Logo.ico</iconset>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>250</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>
+    # 2048python #
+
+      ## version ##
+
+        2048python version 1.0
+
+        [2021/9/11]
+
+      ## rules ##
+
+        Each time you can choose to slide up and down in one direction, each time,all the digital blocks will be closeto the direction of sliding, the system will also appear in the blankspace of a number square, the samenumber of squares in close, collisionwill add up. The system gives the numbersquare is either 2 or 4, the player tofind a way in this small 16 grid rangeto come up with "2048" number square.
+      </string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
