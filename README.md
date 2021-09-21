@@ -2,9 +2,9 @@
 
    ## version ##
 
-   2048python version 1.0
+   2048python version 1.1
 
-   [2021/9/11]
+   [2021/9/21]
 
    ## overview ##
 
