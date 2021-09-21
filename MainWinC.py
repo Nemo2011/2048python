@@ -3,7 +3,6 @@
 from PyQt5.QtWidgets import QMainWindow
 from Ui_main_win import Ui_MainWindow
 from HelpWinC import HelpWin
-import Core
 
 class MainWin(QMainWindow, Ui_MainWindow):
     def __init__(self):
